@@ -38,4 +38,4 @@ If you find this code useful in your research, please consider citing:
 ```
 ## Acknowledgement
 
-Part of our code is borrowed from the [pytorch implementation of Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html). We thank to the authors for releasing their codes
+Part of our code is borrowed from the [pytorch implementation of Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html). We thank to the authors for releasing their codes.
