@@ -1,17 +1,6 @@
 # Construct Dynamic Graphs for Hand Gesture Recognition via Spatial-Temporal Attention
 
-This repository holds the Pytorch implementation of [Construct Dynamic Graphs for Hand Gesture Recognition via Spatial-Temporal Attention](https://arxiv.org/abs/1904.03345) by Yuxiao Chen, Long Zhao, Xi Peng, Jianbo Yuan, and Dimitris N. Metaxas. If you find our code useful in your research, please consider citing:
-
-```
-@inproceedings{zhaoCVPR19semantic,
-  author    = {Chen, Yuxiao and Zhao, Long and Peng, Xi and Yuan, Jianbo and Metaxas, Dimitris N.},
-  title     = {Semantic Graph Convolutional Networks for 3D Human Pose Regression},
-  booktitle = {BMVC},
-  year      = {2019}
-}
-```
-
-<p align="center"><img src="example.gif" width="70%" alt="" /></p>
+This repository holds the Pytorch implementation of [Construct Dynamic Graphs for Hand Gesture Recognition via Spatial-Temporal Attention](https://arxiv.org/abs/1904.03345) by Yuxiao Chen, Long Zhao, Xi Peng, Jianbo Yuan, and Dimitris N. Metaxas.
 
 ## Introduction
 
@@ -36,4 +25,14 @@ This package has the following requirements:
 ```
 python train_on_SHREC.py       # on SHREC’17 Track Dataset
 python train_on_DHC.py         # on DHG-14/28 Dataset
+```
+### Citation
+If you find this code useful in your research, please consider citing:
+```
+@inproceedings{zhaoCVPR19semantic,
+  author    = {Chen, Yuxiao and Zhao, Long and Peng, Xi and Yuan, Jianbo and Metaxas, Dimitris N.},
+  title     = {Semantic Graph Convolutional Networks for 3D Human Pose Regression},
+  booktitle = {BMVC},
+  year      = {2019}
+}
 ```
