@@ -21,7 +21,7 @@ This package has the following requirements:
 
 3. Set the path for saving your trained models in the ```train_on_DHG.py (line 117)``` or the ```train_on_SHREC.py (line 109) ```.
 
-4. Run one of following command.
+4. Run one of following commands.
 ```
 python train_on_SHREC.py       # on SHREC’17 Track Dataset
 python train_on_DHC.py         # on DHG-14/28 Dataset
@@ -36,3 +36,6 @@ If you find this code useful in your research, please consider citing:
   year      = {2019}
 }
 ```
+## Acknowledgement
+
+Part of our code is borrowed from the [pytorch implementation of Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html). We thank to the authors for releasing their codes
