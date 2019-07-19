@@ -26,7 +26,13 @@ This package has the following requirements:
 * `Pytorch v1.0.1`
 
 ### Training
+1. Download the [DHG-14/28 Dataset](http://www-rech.telecom-lille.fr/DHGdataset/) or the [SHREC’17 Track Dataset](http://www-rech.telecom-lille.fr/shrec2017-hand/).
 
+2. Set the path to your downloaded dataset folder in the ```/util/DHG_parse_data.py (line 2)``` or ```the /util/SHREC_parse_data.py (line 5)```.
+
+3. Set the path for saving your trained models in the ```train_on_DHG.py (line 117)``` or the ```train_on_SHREC.py (line 109) ```.
+
+4. Run one of following command.
 ```
 python train_on_SHREC.py       # on SHREC’17 Track Dataset
 python train_on_DHC.py         # on DHG-14/28 Dataset
