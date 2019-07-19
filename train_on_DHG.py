@@ -113,6 +113,7 @@ if __name__ == "__main__":
     print("test_subject_id: ", args.test_subject_id)
 
    #folder for saving trained model...
+    # change this path to the fold where you want to save your pre-trained model
     model_fold = "/gpu2/yc984/hand/model/DHS_ID-{}_dp-{}_lr-{}_dc-{}/".format(args.test_subject_id,args.dp_rate, args.learning_rate, args.data_cfg)
     try:
         os.mkdir(model_fold)
