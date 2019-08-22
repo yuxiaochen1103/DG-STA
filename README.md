@@ -29,7 +29,7 @@ python train_on_DHC.py         # on DHG-14/28 Dataset
 ### Citation
 If you find this code useful in your research, please consider citing:
 ```
-@inproceedings{zhaoCVPR19semantic,
+@inproceedings{chenBMVC19dynamic,
   author    = {Chen, Yuxiao and Zhao, Long and Peng, Xi and Yuan, Jianbo and Metaxas, Dimitris N.},
   title     = {Semantic Graph Convolutional Networks for 3D Human Pose Regression},
   booktitle = {BMVC},
