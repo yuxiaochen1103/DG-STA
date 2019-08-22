@@ -31,7 +31,7 @@ If you find this code useful in your research, please consider citing:
 ```
 @inproceedings{chenBMVC19dynamic,
   author    = {Chen, Yuxiao and Zhao, Long and Peng, Xi and Yuan, Jianbo and Metaxas, Dimitris N.},
-  title     = {Semantic Graph Convolutional Networks for 3D Human Pose Regression},
+  title     = {Construct Dynamic Graphs for Hand Gesture Recognition via Spatial-Temporal Attention},
   booktitle = {BMVC},
   year      = {2019}
 }
